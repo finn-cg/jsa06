@@ -1,0 +1,35 @@
+/* PC */
+@media (min-width: 1024px) {
+    #mobile-menu {
+        display: none;
+    }
+
+    #slider .mobile-content {
+        display: none;
+    }
+}
+
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1024px) {
+    #mobile-menu {
+        display: none;
+    }
+
+    #slider .mobile-content {
+        display: none;
+    }
+}
+
+@media (max-width: 740px) {
+    #nav > li {
+        display: block;
+    }
+
+    #slider .text-content {
+        display: none;
+    }
+
+    #slider .mobile-content {
+        display: inline-block !important;
+    }
+}

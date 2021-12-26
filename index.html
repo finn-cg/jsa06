@@ -4,10 +4,568 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML</title>
+    <link rel="icon" href="./assets/img/ico/blog.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script src="https://kit.fontawesome.com/f5d9245ad7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>JSA06</h1>
-    <p>Đây là lớp của anh Cường</p>
+    <div id="main">
+        <div id="header">
+            <!-- Begin: nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#tool">Tools</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#rules">Rules</a></li>
+                <li><a href="#structure">Structure</a></li>
+                <li><a href="#tags">Tags</a></li>
+            </ul>
+            <!-- End: nav -->
+
+            <!-- Begin: Menu button -->
+            <div id="mobile-menu" class="bars-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <!-- End: Menu button -->
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">HTML</h2>
+                <div class="text-discription font-content">Nguyễn Nhật Cường - 19127346 - Introduction to Web Application</div>
+            </div>
+            
+            <div class="text-content mobile-content">
+                <h2 class="text-heading">HTML</h2>
+                <div class="text-discription font-content">Nguyễn Nhật Cường - 19127346</div>
+            </div>
+        </div>
+
+        <div id="content">
+            <!-- SECTION TOOLS -->
+            <div id="tool" class="content-section max-width text-center">
+                <h2 class="section-heading">Tools</h2>
+                <p class="section-sub-heading">What tools can assist in writing an HTML file?</p>
+                
+                <p class="about">There are many tools to assist you in the process of writing a website, namely writing an html file. Some suggestions below:</p>
+
+                <div class="row">
+                    <div class="col col-half">
+                        <img src="./assets/img/tool/sublime-text.png" alt="Sublime Text" class="tool-img">
+                        <p class="about text-center">Sublime Text</p>
+                    </div>
+
+                    <div class="col col-half">
+                        <img src="./assets/img/tool/visual-studio-code.png" alt="VS Code" class="tool-img">
+                        <p class="about text-center">Visual Studio Code</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-third">
+                        <img src="./assets/img/browser/chrome.png" alt="Chrome" class="tool-img">
+                        <p class="about text-center">Chrome</p>
+                    </div>
+
+                    <div class="col col-third">
+                        <img src="./assets/img/browser/firefox.png" alt="Firefox" class="tool-img">
+                        <p class="about text-center">Firefox</p>
+                    </div>
+
+                    <div class="col col-third">
+                        <img src="./assets/img/browser/Opera_GX.png" alt="Opera GX" class="tool-img">
+                        <p class="about text-center">Opera GX</p>
+                    </div>
+                </div>
+
+                <p class="about">You can use Sublime Text or Visual Studio Code to write code and use browsers like Chrome, Firefox, Opera GX... to display your website.</p>
+            </div>
+            
+            <!-- SECTION HTML -->
+            <div id="html" class="change-background-section text-white">
+                <div id="html" class="content-section max-width text-center">
+                    <h2 class="section-heading">HTML</h2>
+                    <p class="section-sub-heading">Concepts and terms to remember in HTML</p>
+
+                    <div class="main-content-section">
+                        <p class="section-title-heading">What is HTML?</p>
+                        <ol class="ol-style">
+                            <li class="about"><p>HTML stands for Hyper Text Markup Language</p></li>
+                            <li class="about"><p>HTML is the standard markup language for creating Web pages</p></li>
+                            <li class="about"><p>HTML describes the structure of a Web page</p></li>
+                            <li class="about"><p>HTML consists of a series of elements</p></li>
+                            <li class="about"><p>HTML elements tell the browser how to display the content</p></li>
+                            <li class="about"><p>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc</p></li>
+                        </ol>
+                    </div>
+
+                    <div class="main-content-section">
+                        <p class="section-title-heading">What is HyperText?</p>
+                        <p class="about">Hypertext is text displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch. Apart from text, the term "hypertext" is also sometimes used to describe tables, images, and other presentational content formats with integrated hyperlinks. Hypertext is one of the key underlying concepts of the World Wide Web, where Web pages are often written in the Hypertext Markup Language (HTML). As implemented on the Web, hypertext enables the easy-to-use publication of information over the Internet.</p>
+                    </div>
+
+                    <div class="main-content-section">
+                        <p class="section-title-heading">Difference between Hypertext and Hypermedia</p>
+
+                        <div class="table-section dark">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <p class="about">HYPERTEXT</p>
+                                </div>
+                                <div class="col col-half">
+                                    <p class="about">HYPERMEDIA</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-half"><p class="about">Hypertext refers to the system of managing the information related to the plain text.</p></div>
+                                <div class="col col-half"><p class="about">Hypermedia refers to connecting hypertext with other media such as graphics, sounds, animations.</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-half"><p class="about">Hypertext involves only text.</p></div>
+                                <div class="col col-half"><p class="about">It involves graphics, image, video, audio etc.</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-half"><p class="about">Here only text becomes the part of link.</p></div>
+                                <div class="col col-half"><p class="about">It is enhanced version of hypertext here along with text other multimedia also becomes the part of link.</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-half"><p class="about">Hypertext is the part of hypermedia means it comes under hypermedia.</p></div>
+                                <div class="col col-half"><p class="about">Hypermedia is the superior entity which is the advanced version of hypertext.</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-half"><p class="about">It allows the user to navigate through text in a non linear way.</p></div>
+                                <div class="col col-half"><p class="about">It includes multimedia to improve the multimedia experience.</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-half"><p class="about">It simply allows users to move from one document to another with a single click on the hypertext or goto links.</p></div>
+                                <div class="col col-half"><p class="about">It extends the ability of hypertext and allows user to click text or any other multimedia to move one to another page.</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-half"><p class="about">Hypertext attracts to the user to move around the document as well as to move from one page of document to another.</p></div>
+                                <div class="col col-half"><p class="about">Hypermedia attracts the user more than the hypertext as it gives more flexibility of movement.</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-half"><p class="about">It provides a less user experience to the users than the hypermedia.</p></div>
+                                <div class="col col-half"><p class="about">It provides a better user experience to the users than the hypertext.</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-half"><p class="about">Example is reading an article on geeksforgeeks and clicking on any text moving to another page showing information on that topic.</p></div>
+                                <div class="col col-half"><p class="about">Example is reading an article in on geeksforgeeks and in article side one android course image coming and when we click on that image it takes us to the course related page of android.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SECTION RULES -->
+            <div id="rules" class="content-section max-width text-center">
+                <h2 class="section-heading">Rules</h2>
+                <p class="section-sub-heading">The "implicit" rules in writing an HTML file</p>
+            
+                <div class="main-content-section">
+                    <p class="section-title-heading">What is Markup?</p>
+                
+                    <p class="about">It's like you read a book and take notes or bookmark them.</p>
+                    <img src="./assets/img/rules/markup.png" alt="markup" class="illustration-img">
+                    <p class="about">The elements around the "đây là markup" content are called markup.</p>
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">What technologies are commonly used to create a website?</p>
+                    <img src="./assets/img/rules/Technologies.jpg" alt="Technologies" class="illustration-img">
+                    <ul class="ol-style">
+                        <li class="about">
+                            <p>HTML provides the basic structure of web pages, enhanced and modified by other technologies such as CSS and JavaScript.</p>
+                        </li>
+                        <li class="about">
+                            <p>CSS is used to control presentation, formatting, and layout.</p>
+                        </li>
+                        <li class="about">
+                            <p>JavaScript is used to control the behavior of different elements.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">What is a Language?</p>
+                    
+                    <p class="about">HTML elements tell the browser how to display content. At the same time, they label pieces of content like “here is a title”, “here is a paragraph”, “here is a link”, etc.</p>
+                    <p class="about">Structure of an HTML element:</p>
+                    <img src="./assets/img/rules/tag.png" alt="tag" class="illustration-img">
+                    <p class="about">Opening tag: This tag includes the name of the element, enclosed in curly braces "&lt;title&gt;". This tag marks where the element begins or has an effect.</p>
+                    <p class="about">Content: The part is written after the opening tag, in this example, the content is a piece of text.</p>
+                    <p class="about">Closing tag: This tag is wrapped in curly braces "&lt;/title&gt;" This tag has the effect of marking where the element ends or where the element expires.</p>
+                    <p class="about">However, there are still a few tags that only have an opening tag without a closing tag.</p>
+                    <img src="./assets/img/rules/opening.jpg" alt="opening" class="illustration-img">
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">What is right and wrong syntax?</p>
+                    
+                    <p class="about">Most opening tags must be closed by itself (closeing tag).</p>
+                    <img src="./assets/img/rules/syntax.jpg" alt="syntax" class="illustration-img">
+
+                    <p class="about">Tags without any content still have to have both closing and opening tags, the traditional opening and closing style is no longer useful at present.</p>
+                    <img src="./assets/img/rules/closing.jpg" alt="closing" class="illustration-img">
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">A few other principles</p>
+
+                    <p class="about">Each tag has its own attributes, and those attributes are separated by spaces.</p>
+                    <img src="./assets/img/rules/attributes.jpg" alt="attributes" class="illustration-img">
+
+                    <p class="about">Attribute values ​​can be set in double quotes or single quotes.</p>
+                    <img src="./assets/img/rules/only.jpg" alt="only" class="illustration-img">
+
+                    <p class="about">In some cases their values ​​can include both double quotes and single quotes.</p>
+                    <img src="./assets/img/rules/both.jpg" alt="both" class="illustration-img">
+                </div>
+                
+                <div class="main-content-section">
+                    <p class="section-title-heading">Nesting elements</p>
+                    
+                    <p class="about">Elements can be placed inside other elements, acting as an emphasis to draw attention to the user..</p>
+                    <img src="./assets/img/tags/Nesting-elements.png" alt="Nesting-elements" class="illustration-img">
+                    <p class="about">For example, opening a &lt;p&gt; element first, then opening a &lt;strong&gt; element, to be appropriate we can consider the &lt;strong&gt; element as a level element of the &lt;p&gt; element, so when closing the tag we must close the &lt;strong&gt; element first, and then close the &lt;p&gt; tag. The element "&lt;strong&gt;nóng&lt;/strong&gt;" has the effect of bolding the word "nóng" in the text "thời tiết hôm nay thật nóng bức".</p>
+                </div>
+            </div>
+            
+            <!-- SECTION STRUCTURE -->
+            <div id="structure" class="change-background-section text-white">
+                <div id="structure" class="content-section max-width text-center">
+                    <h2 class="section-heading">Structure</h2>
+                    <p class="section-sub-heading">Have you ever wanted to make your own website?</p>
+                
+                    <div class="main-content-section">
+                        <p class="section-title-heading">Basic HTML document structure</p>
+                        
+                        <p class="about">Looking further into the document structure, you can see that some elements will be visible through a browser, and some will not. But each element serves a very important purpose.</p>
+                        <img src="./assets/img/structure/annotatedHTML.jpg" alt="annotatedHTML" class="illustration-img">
+                        <p class="about">Every web document must include one and only one instance of DOCTYPE, &lt;html&gt;, &lt;head&gt;, &lt;body&gt;, and &lt;title&gt;.</p>
+                    </div>
+                    
+                    <div class="main-content-section">
+                        <p class="section-title-heading">Browser and which is the best option?</p>
+                        
+                        <p class="about">In the age of information technology is growing stronger than ever, there are many browsers invented by people. Each browser has its own strengths, but not every tag or spelling in HTML works for all of them. Each browser sets its own standards and supports users for many other purposes.</p>
+                        <p class="about">Therefore, depending on the purpose of use, we choose the "best browser" for us. At the same time, before proceeding to design a website, we also need to know what type of browser will be used primarily for it in order to apply the appropriate tags and spellings.</p>
+                    </div>
+                    
+                    <div class="main-content-section">
+                        <p class="section-title-heading">HTML Comments</p>
+                        
+                        <p class="about">HTML comments are not displayed in the browser, but they can help document your HTML source code.</p>
+                        <p class="about">You can add comments to your HTML source by using the following syntax:</p>
+                        <img src="./assets/img/structure/comment.jpg" alt="annotatedHTML" class="illustration-img">
+                        <p class="about">Notice that there is an exclamation point (!) in the start tag, but not in the end tag.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SECTION TAGS -->
+            <div id="tags" class="content-section max-width text-center">
+                <h2 class="section-heading">Tags</h2>
+                <p class="section-sub-heading">In this section we will only dive into the most common tags</p>
+            
+                <div class="main-content-section">
+                    <p class="section-title-heading">Block level element and HTML inline</p>
+                    
+                    <p class="about">A block element is any element that begins a new line (e.g. paragraph) and uses the full width of the page or container. The block element can take up a single line or multiple lines and has a line break before and after the element. Easier to understand than block elements are usually structural elements on the page.</p>
+                    <p class="about">For example, a representative block element can represent headers, paragraphs, navigation menus, and more. A block element will not be nested inside an inline element, but block-level elements can be nested.</p>
+                    <p class="about">An inline element is an element inside an element block and is usually used to wrap around a piece of text.</p>
+                    <p class="about">An inline element does not start on a new line.</p>
+                    <p class="about">An inline element only takes up as much width as needed.</p>
+                </div>
+                
+                <div class="main-content-section">
+                    <p class="section-title-heading">What is "div" tag in HTML?</p>
+                    
+                    <p class="about">The &lt;div&gt; tag in HTML is an acronym for division, the &lt;div&gt; tag does not affect the content or layout it is usually used to group HTML elements, used to create a block level area for styling with CSS or manipulating scripts.</p>
+                    <img src="./assets/img/tags/div.png" alt="div" class="illustration-img">
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">What is "span" tag in HTML?</p>
+                    
+                    <p class="about">The Span tag in HTML is considered an inline element, used to format text or a piece of text. It is similar to div tag but div tag is used for element blocks while span is used for inline elements. It is mainly used whenever users want to group inline elements into the structure of their code.</p>
+                    <p class="about">Span tags are used to style specific assets using the element class or the id attribute. It is not possible to manually make visual changes using the span tag in an HTML document. Using span tags in your code reduces code and HTML attributes.</p>
+                    <img src="./assets/img/tags/span.png" alt="span" class="illustration-img">
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">HTML &lt;h1&gt; to &lt;h6&gt; tags</p>
+                    
+                    <p class="about">The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings.</p>
+                    <p class="about">&lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.</p>
+                    <img src="./assets/img/tags/h.jpg" alt="h1toh6" class="illustration-img">
+                    <p class="about"><strong>Note:</strong> Only use one &lt;h1&gt; per page - this should represent the main heading/subject for the whole page. Also, do not skip heading levels - start with &lt;h1&gt;, then use &lt;h2&gt;, and so on.</p>
+                    <p class="about">Here is the output:</p>
+                    <img src="./assets/img/tags/out-h1to6.jpg" alt="h1toh6" class="illustration-img">              
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">Semantic Elements in HTML</p>
+                    
+                    <p class="about">Many web sites contain HTML code like: &lt;div id="nav"&gt; &lt;div class="header"&gt; &lt;div id="footer"&gt; to indicate navigation, header, and footer.</p>
+                    <p class="about">In HTML there are some semantic elements that can be used to define different parts of a web page:</p>
+                    
+                    <div class="row">
+                        <div class="col col-half">
+                            <ul class="ul-style">
+                                <li class="about lower-height">&lt;article&gt;</li>
+                                <li class="about lower-height">&lt;aside&gt;</li>
+                                <li class="about lower-height">&lt;details&gt;</li>
+                                <li class="about lower-height">&lt;figcaption&gt;</li>
+                                <li class="about lower-height">&lt;figure&gt;</li>
+                                <li class="about lower-height">&lt;footer&gt;</li>
+                                <li class="about lower-height">&lt;header&gt;</li>
+                                <li class="about lower-height">&lt;main&gt;</li>
+                                <li class="about lower-height">&lt;mark&gt;</li>
+                                <li class="about lower-height">&lt;nav&gt;</li>
+                                <li class="about lower-height">&lt;section&gt;</li>
+                                <li class="about lower-height">&lt;summary&gt;</li>
+                                <li class="about lower-height">&lt;time&gt;</li>
+                            </ul>
+                        </div>
+                        <div class="col col-half">
+                            <img src="./assets/img/tags/img_sem_elements.gif" alt="h1toh6" class="illustration-img sem-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">Unordered HTML List</p>
+                    
+                    <p class="about">An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.</p>
+                    <p class="about">The list items will be marked with bullets (small black circles) by default:</p>
+                    <img src="./assets/img/tags/ul-li.jpg" alt="ul-li" class="illustration-img">
+                    <p class="about">Here is the output:</p>
+                    <img src="./assets/img/tags/out-ul.jpg" alt="ul-li" class="illustration-img">
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">Ordered HTML List</p>
+                    
+                    <p class="about">An ordered list starts with the &lt;ol&gt; tag. Each list item starts with the &lt;li&gt; tag.</p>
+                    <p class="about">The list items will be marked with numbers by default:</p>
+                    <img src="./assets/img/tags/ol-li.jpg" alt="ol-li" class="illustration-img">
+                    <p class="about">Here is the output:</p>
+                    <img src="./assets/img/tags/out-ol.jpg" alt="ol-li" class="illustration-img">
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">HTML Links</p>
+                    
+                    <p class="about">HTML links are hyperlinks. You can click on a link and jump to another document. When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
+                    <p class="about"><strong>Note: </strong>A link does not have to be text. A link can be an image or any other HTML element!</p>
+                    <img src="./assets/img/tags/link-syntax.jpg" alt="link-syntax" class="illustration-img">
+                    <p class="about">The HTML &lt;a&gt; tag defines a hyperlink. It has this syntax.</p>
+                    
+                    <p class="about">The most important attribute of the &lt;a&gt; element is the href attribute, which indicates the link's destination. The link text is the part that will be visible to the reader. Clicking on the link text, will send the reader to the specified URL address.</p>
+                    <p class="about">We can link to a file in the same directory as this HTML file like this:</p>
+                    <img src="./assets/img/tags/internal-link.jpg" alt="internal-link" class="illustration-img">
+                    <p class="about">By default, links will appear as follows in all browsers:</p>
+                    <ul class="ul-style">
+                        <li class="about lower-height">
+                            <p>An unvisited link is underlined and blue</p>
+                        </li>
+                        <li class="about lower-height">
+                            <p>A visited link is underlined and purple</p>
+                        </li>
+                        <li class="about lower-height">
+                            <p>An active link is underlined and red</p>
+                        </li>
+                    </ul>
+                    <p class="about"><strong>Tip: </strong>Links can of course be styled with CSS, to get another look!</p>
+                    
+                    <p class="about">By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.</p>
+                    <p class="about">The <strong>target</strong> attribute specifies where to open the linked document.</p>
+                    <img src="./assets/img/tags/external-link.jpg" alt="external-link" class="illustration-img">
+                    <p class="about">This code can links to a Facebook page!</p>
+                    <p class="about">The <strong>target</strong> attribute can have one of the following values:</p>
+                    <ul class="ul-style">
+                        <li class="about lower-height">
+                            <p>_self - Default. Opens the document in the same window/tab as it was clicked</p>
+                        </li>
+                        <li class="about lower-height">
+                            <p>_blank - Opens the document in a new window or tab</p>
+                        </li>
+                        <li class="about lower-height">
+                            <p>_parent - Opens the document in the parent frame</p>
+                        </li>
+                        <li class="about lower-height">
+                            <p>_top - Opens the document in the full body of the window</p>
+                        </li>
+                    </ul>
+                    <p class="about">Besides, linking to sections of a document by href and id like this:</p>
+                    <img src="./assets/img/tags/id-link.jpg" alt="id-link" class="illustration-img"> 
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">HTML &lt;img&gt; Tag</p>
+                    
+                    <p class="about">The &lt;img&gt; tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages. The &lt;img&gt; tag creates a holding space for the referenced image.</p>
+                    <img src="./assets/img/tags/img.jpg" alt="ol-li" class="illustration-img">
+                    <p class="about">The &lt;img&gt; tag has two required attributes:</p>
+                    <ul class="ul-style">
+                        <li class="about lower-height">
+                            <p>src - Specifies the path to the image</p>
+                        </li>
+                        <li class="about lower-height">
+                            <p>alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed</p>
+                        </li>
+                    </ul>
+                    <p class="about"><strong>Note: </strong>Also, always specify the width and height of an image. If width and height are not specified, the page might flicker while the image loads.</p>
+                    <p class="about"><strong>Tip: </strong>To link an image to another document, simply nest the <img> tag inside an <a> tag</p>
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">HTML Tables</p>
+                    
+                    <p class="about">HTML tables allow web developers to arrange data into rows and columns.</p>
+                    <p class="about">Let's see the following example:</p>
+                    <img src="./assets/img/tags/table.jpg" alt="table" class="illustration-img">
+                    <p class="about">In HTML, a table includes:</p>
+                    <ul class="ul-style">
+                        <li class="about lower-height">
+                            <p>Table Cells - Each table cell is defined by a &lt;td&gt; and a &lt;/td&gt; tag (td stands for table data). Everything between &lt;td&gt; and &lt;/td&gt; are the content of the table cell.</p>
+                        </li>
+                        <li class="about lower-height">
+                            <p>Table Rows - Each table row starts with a &lt;tr&gt; and end with a &lt;/tr&gt; tag (tr stands for table row).</p>
+                        </li>
+                        <li class="about lower-height">
+                            <p>Table Headers - Sometimes you want your cells to be headers, in those cases use the &lt;th&gt; tag instead of the &lt;td&gt; tag.</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="main-content-section">
+                    <p class="section-title-heading">Combine Columns: colspan</p>
+                    
+                    <p class="about">To make a cell span over multiple columns, use the <strong>colspan</strong> attribute:</p>
+                    <img src="./assets/img/tags/colspan.jpg" alt="colspan" class="illustration-img">
+                    <p class="about">Here is the output:</p>
+                    <img src="./assets/img/tags/out-col.jpg" alt="out-col" class="illustration-img">
+                    <p class="about"><strong>Note: </strong>The value of the colspan attribute represents the number of columns to span.</p>
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">Combine Rows: rowspan</p>
+                    
+                    <p class="about">To make a cell span over multiple rows, use the <strong>rowspan</strong> attribute:</p>
+                    <img src="./assets/img/tags/rowspan.jpg" alt="rowspan" class="illustration-img">
+                    <p class="about">Here is the output:</p>
+                    <img src="./assets/img/tags/out-row.jpg" alt="out-row" class="illustration-img">
+                    <p class="about"><strong>Note: </strong>The value of the rowspan attribute represents the number of columns to span.</p>
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">HTML Forms</p>
+                    
+                    <p class="about">An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
+                    <p class="about">The HTML &lt;form&gt; element is used to create an HTML form for user input. It is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.</p>
+                    <p class="about">The HTML &lt;input&gt; element is the most used form element. An &lt;input&gt; element can be displayed in many ways, depending on the type attribute.</p>
+                    <p class="about">Here are some examples:</p>
+                    
+                    <div class="table-section light">
+                        <div class="row">
+                            <div class="col col-1">
+                                <p class="about"><strong>Type</strong></p>
+                            </div>
+                            <div class="col col-2">
+                                <p class="about"><strong>Description</strong></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-1"><p class="about">&lt;input type="text"&gt;</p></div>
+                            <div class="col col-2"><p class="about">Displays a single-line text input field</p></div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-1"><p class="about">&lt;input type="radio"&gt;</p></div>
+                            <div class="col col-2"><p class="about">Displays a radio button (for selecting one of many choices)</p></div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-1"><p class="about">&lt;input type="checkbox"&gt;</p></div>
+                            <div class="col col-2"><p class="about">Displays a checkbox (for selecting zero or more of many choices)</p></div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-1"><p class="about">&lt;input type="submit"&gt;</p></div>
+                            <div class="col col-2"><p class="about">Displays a submit button (for submitting the form)</p></div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-1"><p class="about">&lt;input type="button"&gt;</p></div>
+                            <div class="col col-2"><p class="about">Displays a clickable button</p></div>
+                        </div>
+                    </div>
+
+                    <p class="about">The &lt;button&gt; tag defines a clickable button. Inside a &lt;button&gt; element you can put text (and tags like &lt;i&gt;, &lt;b&gt;, &lt;strong&gt;, &lt;br&gt;, &lt;img&gt;, etc.). That is not possible with a button created with the &lt;input&gt; element!</p>
+                    <p class="about">Let's see the following example:</p>
+                    <img src="./assets/img/tags/form.jpg" alt="form" class="illustration-img">
+                    <p class="about">Here is the output:</p>
+                    <img src="./assets/img/tags/out-form.jpg" alt="out-form" class="illustration-img">
+                </div>
+
+                <div class="main-content-section">
+                    <p class="section-title-heading">HTML Character Entity References (HTML Special Characters)</p>
+                    
+                    <img src="./assets/img/tags/ref.jpg" alt="rowspan" class="illustration-img">
+                    <p class="about">They safeguard against more limited character encoding and provide characters not available on a keyboard.</p>
+                </div>
+            </div>
+
+            <div class="sub-final-section">
+                <img src="./assets/img/sub-final/html.jpg" alt="html">
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="social-list">
+                <a href="https://www.facebook.com/finn.nhatcuong/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/_finn.cg/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <p class="copyright m16px">Powered by <a href="https://www.facebook.com/finn.nhatcuong/" target="_blank">Nguyễn Nhật Cường</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const slider = document.querySelector('#slider')
+        const content = document.querySelector('#content')
+        const footer = document.querySelector('#footer')
+
+        var header = document.getElementById('header')
+        var mobileMenu = document.getElementById('mobile-menu')
+        var headerHeight = header.clientHeight
+        
+        mobileMenu.onclick = function () {
+            var isClose = header.clientHeight === headerHeight
+
+            if (isClose) {
+                header.style.height = 'auto'
+            } else {
+                header.style.height = null
+            }
+        }
+
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
+
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i]
+            
+            menuItem.onclick = function () {
+                header.style.height = null
+            }
+        }
+
+        function hideHeader() {
+            header.style.height = null
+        }
+
+        slider.addEventListener('click', hideHeader)
+        content.addEventListener('click', hideHeader)
+        footer.addEventListener('click', hideHeader)
+    </script>
 </body>
 </html>
